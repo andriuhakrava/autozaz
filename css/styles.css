@@ -1,0 +1,679 @@
+@font-face {
+	font-family: HeliosC;
+	src: url('../fonts/HeliosC.woff');
+	font-style: normal;
+	font-weight: normal;
+}
+
+@font-face {
+	font-family: 'Helios Ext Thin';
+	src: url('../fonts/HeliosExtThin.woff') format('woff');
+	font-style: normal;
+	font-weight: normal;
+}
+
+* {
+	outline: none;
+}
+
+body {
+	margin: 0;
+	padding: 0;
+	font-family: 'HeliosC', Arial, Helvetica, sans-serif;
+}
+
+h2 {
+	 font-size: 18px;
+   font-weight: bold;
+   margin: 0;
+}
+
+p {
+	margin: 0;
+}
+
+ul {
+	padding: 0;
+	margin: 0;
+	list-style: none;
+}
+
+label:hover {
+	cursor: pointer;
+}
+
+header {
+	margin: 0 auto;
+}
+
+.content {
+	background: url(../img/backpart.png) repeat;
+}
+
+.container {
+	max-width: 1040px;
+	margin: 0 auto;
+	background: linear-gradient(to right, transparent 0%, #ffffff 20%, #ffffff 50%, #ffffff 80%, transparent 100%);
+}
+
+.logo_am {
+	display: inline-block;
+	padding-top: 28px;
+}
+
+.logo_zaz {
+	display: inline-block;
+}
+
+.logo_record {
+	max-width: 712px;
+	width: 100%;
+	text-align: center;
+	margin-left: 31px;
+	margin-right: 67px;
+	display: inline-block;
+	padding: 0 0 16px;
+}
+
+.logo_record .record_text {
+	margin: 0 auto;
+	max-width: 395px;
+	font-family: 'Helios Ext Thin', Arial, Helvetica, sans-serif;
+	font-size: 30px;
+	text-align: center;
+	text-transform: uppercase;
+	color: #3f839c;
+}
+
+.logo_record .record_redtext {
+	font-weight: bold;
+	font-size: 42px;
+	color: #ed1c1c;
+}
+
+.logo_record .record_redtext img {
+	width: 100%;
+}
+
+.logo_record .record_bluetext {
+	margin: 0 auto;
+	max-width: 395px;
+	font-size: 18px;
+	font-weight: bold;
+	text-align: center;
+	color: #005a7c;
+}
+
+.underheader {
+	font-size: 14px;
+	text-align: center;
+	color: #3d829c;
+}
+
+.header-line img {
+	width: 100%;
+}
+
+.menu {
+	text-align: center;
+}
+
+.menu_list {
+	margin: 0 auto;
+	padding-bottom: 50px;
+	list-style-type: none;
+}
+
+.menu_list li {
+	display: inline-block;
+	margin-right: 52px;
+	font-size: 30px;
+}
+
+.menu_list li:last-child {
+	margin-right: 0;
+}
+
+.menu_list a {
+	font-family: 'HeliosUltraCompressedC', Arial;
+	color: #dd0000;
+	text-decoration: none;
+	text-shadow: 
+		-0   -4px 0   #FFFFFF,
+		 0   -4px 0   #FFFFFF,
+		-0    4px 0   #FFFFFF,
+		 0    4px 0   #FFFFFF,
+		-4px -0   0   #FFFFFF,
+		 4px -0   0   #FFFFFF,
+		-4px  0   0   #FFFFFF,
+		 4px  0   0   #FFFFFF,
+		-1px -4px 0   #FFFFFF,
+		 1px -4px 0   #FFFFFF,
+		-1px  4px 0   #FFFFFF,
+		 1px  4px 0   #FFFFFF,
+		-4px -1px 0   #FFFFFF,
+		 4px -1px 0   #FFFFFF,
+		-4px  1px 0   #FFFFFF,
+		 4px  1px 0   #FFFFFF,
+		-2px -4px 0   #FFFFFF,
+		 2px -4px 0   #FFFFFF,
+		-2px  4px 0   #FFFFFF,
+		 2px  4px 0   #FFFFFF,
+		-4px -2px 0   #FFFFFF,
+		 4px -2px 0   #FFFFFF,
+		-4px  2px 0   #FFFFFF,
+		 4px  2px 0   #FFFFFF,
+		-3px -4px 0   #FFFFFF,
+		 3px -4px 0   #FFFFFF,
+		-3px  4px 0   #FFFFFF,
+		 3px  4px 0   #FFFFFF,
+		-4px -3px 0   #FFFFFF,
+		 4px -3px 0   #FFFFFF,
+		-4px  3px 0   #FFFFFF,
+		 4px  3px 0   #FFFFFF,
+		-4px -4px 0   #FFFFFF,
+		 4px -4px 0   #FFFFFF,
+		-4px  4px 0   #FFFFFF,
+		 4px  4px 0   #FFFFFF,
+		-4px -4px 0   #FFFFFF,
+		 4px -4px 0   #FFFFFF,
+		-4px  4px 0   #FFFFFF,
+		 4px  4px 0   #FFFFFF;
+}
+
+.menu_list a:hover {
+	font-family: 'HeliosUltraCompressedC', Arial;
+	color: #005a7c;
+	text-decoration: none;
+}
+
+.autozaz {
+	display: block;
+	max-width: 940px;
+	width: 100%;
+	margin: 0 auto;
+	color: #00597c;
+	font-size: 14px;
+	padding: 35px 0;
+}
+
+form {
+	width: 990px;
+	margin: 0;
+}
+
+.form_block {
+	max-width: 490px;
+	float: left;
+	padding-right: 32px;
+	box-sizing: border-box;
+}
+
+	.form_block .field_person {
+	display: inline-block;
+	max-width: 434px;
+	width: 69%;
+	border-radius: 5px;
+	border: 1px solid #8cacb8;
+	padding: 8px 10px;
+	margin-top: 13px;
+	box-sizing: border-box;
+}
+
+.form_block p span {
+	display: inline-block;
+	max-width: 118px;
+	width: 100%;
+}
+
+.form_block .date_title {
+	display: inline-block;
+	max-width: 132px;
+	width: 100%;
+}
+
+.form_block .date_content {
+	display: inline-block;
+	margin-left: 26px;
+	max-width: 276px;
+	width: 100%;
+}
+
+.date_list {
+	-webkit-appearance: none;
+	outline: none;
+	box-sizing: border-box;
+	color: #bfbfbf;
+	font-size: 18px;
+	background-image: url(../img/select.png);
+  background-repeat: no-repeat;
+  background-position: right center;
+	border: 1px solid #58b0d3;
+	border-radius: 5px;
+	border-right: none;
+	border-top-right-radius: 7px;
+	border-bottom-right-radius: 7px;
+}
+
+.date_list:hover {
+	cursor: pointer;
+}
+
+.date_day {
+	padding: 4px 0 4px 8px;
+	max-width: 72px;
+	width: 100%;
+}
+
+.date_month {
+	padding: 4px 0 4px 9px;
+	padding-left: 9px;
+	max-width: 114px;
+	width: 100%;
+	font-size: 16px;
+}
+
+.date_year {
+	padding: 4px 0 4px 4px;
+	max-width: 78px;
+	width: 100%;
+}
+
+.documents_header {
+	text-align: center;
+	margin: 35px 0 11px;
+}
+
+.office_title {
+	vertical-align: bottom;
+}
+
+.adress_title {
+	margin-top: 23px;
+	display: block;
+	width: 100%;
+}
+
+.field_sex {
+	margin: 18px 0 31px;
+}
+
+.field_sex .field_gender {
+	display: inline-block;
+	max-width: 80px;
+	width: 100%;
+}
+
+.field_checkbox {
+	display: none;
+}
+
+.label_checkbox {
+	position: relative;
+	width: auto;
+	padding-top: 0;
+	padding-left: 22px;
+	line-height: 15px;
+}
+
+.label_checkbox:after {
+	content: '';
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 13px;
+	height: 13px;
+	border: 1px solid #6ebbd9;
+}
+
+.field_checkbox:checked + .label_checkbox:before {
+	content: '';
+	position: absolute;
+	top: 1px;
+	left: 0;
+	z-index: 1;
+	width: 14px;
+	height: 5px;
+	transform: rotate(-45deg);
+	border-left: 2px solid #6ebbd9;
+	border-bottom: 2px solid #6ebbd9;
+}
+
+.form_block .contacts_title {
+	max-width: 141px;
+	width: 100%;
+	vertical-align: middle;
+}
+
+.contacts_block {
+	margin: 15px 0 0;
+	display: inline-block;
+	width: 100%;
+}
+
+.form_block .field_contacts {
+	margin-top: 0;
+	max-width: 294px;
+	width: 100%;
+}
+
+.form_block .driverauto_title {
+	display: inline-block;
+	max-width: 365px;
+	width: 100%;
+}
+
+.form_block .experience_field {
+	margin-top: 9px;
+}
+
+.form_block .experience_field .experience_block {
+	display: inline-block;
+	width: 49%;
+}
+
+.form_block .experience_field .experience_block .experience_yes {
+	padding-right: 12px;
+	max-width: 72px;
+	width: 100%;
+}
+
+.form_block .experience_field .experience_block .experience_years label {
+	padding-left: 6px;
+}
+
+.form_block .field_number {
+	width: 54px;
+	padding: 8px;
+	box-sizing: border-box;
+	border-radius: 5px;
+	border: 1px solid #8cacb8;
+	margin-bottom: 12px;
+}
+
+.form_block .field_big {
+	width: 100%;
+}
+
+.trip_header {
+	margin: 35px 0 5px;
+}
+
+.trip_text {
+	font-style: italic;
+	font-size: 12px;
+	color: #92a5ad;
+}
+
+.trip_block {
+	max-width: 180px;
+	margin-right: 30px;
+	float: left;
+}
+
+.trip_block .field_trip {
+	margin-top: 20px;
+}
+
+.clear {
+	content: "";
+	display: block;
+	clear: both;
+}
+
+.agree_block {
+	max-width: 940px;
+	width: 100%;
+	padding-top: 41px;
+	font-size: 18px;
+	font-weight: bold;
+}
+
+.agree_head {
+	padding: 0 5px;
+	text-align: center;
+}
+
+.field_agree {
+	margin-left: 25px;
+}
+
+.agree_text {
+	margin-top: 12px;
+	margin-bottom: 21px;
+	padding: 0 10px;
+	font-size: 12px;
+	font-style: italic;
+	color: #7f959e;
+	text-align: center;
+}
+
+.agree_button {
+	text-align: center;
+}
+
+.agree_button button {
+	padding: 12px 0;
+	margin-top: 21px;
+	width: 284px;
+	color: white;
+	font-weight: bold;
+	font-size: 18px;
+	background: linear-gradient(to top, #1a3c5f, #3a5896);
+	border-radius: 7px;
+	border: 1px solid #8cacb8;
+	cursor: pointer;
+}
+
+footer {
+	width: 100%;
+	background: url(../img/backfootpart.png) repeat;
+	font-family: Arial, Helvetica, sans-serif;
+	color: #fff;
+	box-shadow: inset 0 22px 24px #003347;
+}
+
+.foot_block {
+	max-width: 940px;
+	padding: 22px 0 44px;
+	margin: 0 auto;
+	box-sizing: border-box;
+	font-size: 12px;
+}
+
+.copyright {
+	float: left;
+	padding-left: 37px;
+	width: 96px;
+}
+
+.social {
+	float: right;
+	width: 160px;
+	vertical-align: top;
+}
+
+.social_list, .social_list li {
+	display: inline-block;
+	margin-left: 10px;
+}
+
+.social_list li a {
+	display: inline-block;
+	width: 22px;
+	height: 22px;
+	background: #395793;
+	color: #fff;
+	font-size: 19px;
+	font-weight: bold;
+	text-align: center;
+	text-decoration: none;
+	border-radius: 2px;
+	box-shadow: 3px 5px 10px #003145;
+}
+
+@media screen and (max-width: 1100px) {
+	header {
+		padding: 0 15px;
+	}
+	.logo_record {
+		margin: 0;
+	}
+	.menu_list {
+		padding-bottom: 15px;
+	}
+	form {
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		width: 100%;
+	}
+	.form_block {
+		margin: 15px auto 0;
+		padding-right: 0;
+	}
+	.form_block .field_big {
+		max-width: 457px;
+		width: 100%;
+	}
+	.form_block .field_contacts {
+		max-width: 314px;
+		width: 100%;
+	}
+	.trip_container {
+		display: flex;
+		justify-content: space-around;
+	}
+	.trip_block {
+		margin-right: 0;
+	}
+}
+
+@media screen and (max-width: 992px) {
+	.logo_am, .logo_zaz {
+		display: block;
+		text-align: center;
+	}
+	.logo_am {
+		padding: 15px 0;
+	}
+	.logo_zaz {
+		padding-bottom: 15px;
+	}
+	.logo_record {
+		max-width: 920px;
+		width: 100%;
+		text-align: center;
+	}	
+}
+
+@media screen and (max-width: 768px) {
+	.menu_list li {
+		display: inline-block;
+		margin-right: 32px;
+		font-size: 28px;
+	}
+	.agree_head {
+		text-align: center;
+	}
+	.field_agree {
+		display: flex;
+		justify-content: center;
+		margin: 10px 0 0;
+	}
+}
+
+@media screen and (max-width: 576px) {
+	h2 {
+		font-size: 17px;
+	}
+	.logo_record .record_text {
+		font-size: 24px;
+	}
+	.menu_list {
+		padding: 0 10px;
+	}
+	.menu_list li {
+		margin-right: 16px;
+	}
+	.form_block {
+		padding: 0 10px 0 15px;
+		max-width: 490px;
+		width: 100%;
+	}
+	.form_block p span, .form_block .contacts_title {
+		width: 35%;
+	}
+	.contacts_block {
+		margin-top: 7px;
+	}
+	.form_block .field_person {
+		width: 60%;	
+	}
+	.field_trip .label_checkbox:after, .agree_head .label_checkbox:after {
+		border: 2px solid #6ebbd9;
+	}
+	.form_block .date_title {
+		margin-bottom: 8px;
+	}
+	.form_block .date_content {
+		margin-left: 0;
+	}
+	.date_list {
+		font-size: 16px;
+	}
+	.form_block .field_date {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+	}
+	.form_block .driverauto_title  {
+		display: block;
+		margin-bottom: 8px;
+		max-width: 490px;
+		width: 100%;
+		text-align: center;
+	}
+	.form_block .field_number {
+		display: block;
+		margin: 0 auto 10px;
+	}
+	.form_block .experience_field .experience_block {
+		width: 70%;
+	}
+	.form_block .experience_field .experience_block {
+		display: flex;
+		flex-direction: row;
+		justify-content: center;
+	}
+	.form_block .experience_field,
+	.form_block .experience_field .experience_block .experience_yes,
+	.form_block .experience_field .experience_block .experience_years,
+	.form_block .experience_field .experience_block .experience_no {
+		display: flex;
+	}
+	.form_block .experience_field .experience_block .experience_yes {
+		-ms-grid-row-align: center;
+		align-self: center;
+	}
+	.form_block .experience_field .experience_block .experience_years {
+		align-items: center;
+	}
+	.form_block .experience_field .experience_no {
+		-ms-grid-row-align: center;
+		align-self: center;
+		width: 15%;
+	}
+	.trip_container {
+		justify-content: space-between;
+		font-size: 12px;
+	}
+	.trip_block .field_trip {
+		margin-top: 12px;
+	}
+	.form_block .field_big {
+		max-width: 434px;
+		width: 100%;
+		margin-top: 0;
+	}
+}
