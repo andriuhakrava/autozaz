@@ -20,6 +20,7 @@ body {
 	margin: 0;
 	padding: 0;
 	font-family: 'HeliosC', Arial, Helvetica, sans-serif;
+	overflow-x: hidden;
 }
 
 h2 {
@@ -51,9 +52,24 @@ header {
 }
 
 .container {
+	position: relative;
 	max-width: 1040px;
 	margin: 0 auto;
-	background: linear-gradient(to right, transparent 0%, #ffffff 20%, #ffffff 50%, #ffffff 80%, transparent 100%);
+	background: linear-gradient(to right, transparent, rgba(255, 255, 255, 0.3), transparent);
+	/*background: linear-gradient(to right, transparent 0%, #ffffff 20%, #ffffff 50%, #ffffff 80%, transparent 100%);*/
+}
+
+.container:before {
+	content: '';
+	position: absolute;
+	left: -100px;
+	right: -100px;
+	height: 100%;
+	background: linear-gradient(to right, transparent, rgba(255, 255, 255, 0.4) 20%, rgba(255, 255, 255, 0.8) 50%, rgba(255, 255, 255, 0.4) 80%, transparent);
+}
+.container > * {
+	position: relative;
+	z-index: 2;
 }
 
 .logo_am {
