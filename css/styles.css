@@ -65,7 +65,6 @@ header:after {
 	max-width: 1040px;
 	margin: 0 auto;
 	background: linear-gradient(to right, transparent, rgba(255, 255, 255, 0.3), transparent);
-	/*background: linear-gradient(to right, transparent 0%, #ffffff 20%, #ffffff 50%, #ffffff 80%, transparent 100%);*/
 }
 
 .container:before {
@@ -76,6 +75,7 @@ header:after {
 	height: 100%;
 	background: linear-gradient(to right, transparent, rgba(255, 255, 255, 0.4) 20%, rgba(255, 255, 255, 0.8) 50%, rgba(255, 255, 255, 0.4) 80%, transparent);
 }
+
 .container > * {
 	position: relative;
 	z-index: 2;
@@ -551,34 +551,42 @@ footer {
 	header {
 		padding: 0 15px;
 	}
+
 	.logo_record {
 		margin: 0;
 	}
+
 	.menu_list {
 		padding-bottom: 15px;
 	}
+
 	form {
 		display: flex;
 		flex-direction: column;
 		justify-content: center;
 		width: 100%;
 	}
+
 	.form_block {
 		margin: 15px auto 0;
 		padding-right: 0;
 	}
+
 	.form_block .field_big {
 		max-width: 457px;
 		width: 100%;
 	}
+
 	.form_block .field_contacts {
 		max-width: 314px;
 		width: 100%;
 	}
+
 	.trip_container {
 		display: flex;
 		justify-content: space-around;
 	}
+
 	.trip_block {
 		margin-right: 0;
 	}
@@ -589,12 +597,15 @@ footer {
 		display: block;
 		text-align: center;
 	}
+
 	.logo_am {
 		padding: 15px 0;
 	}
+
 	.logo_zaz {
 		padding-bottom: 15px;
 	}
+
 	.logo_record {
 		max-width: 920px;
 		width: 100%;
@@ -608,9 +619,11 @@ footer {
 		margin-right: 32px;
 		font-size: 28px;
 	}
+
 	.agree_head {
 		text-align: center;
 	}
+
 	.field_agree {
 		display: flex;
 		justify-content: center;
@@ -622,46 +635,59 @@ footer {
 	h2 {
 		font-size: 17px;
 	}
+
 	.logo_record .record_text {
 		font-size: 24px;
 	}
+
 	.menu_list {
 		padding: 0 10px;
 	}
+
 	.menu_list li {
 		margin-right: 16px;
 	}
+
 	.form_block {
 		padding: 0 10px 0 15px;
 		max-width: 490px;
 		width: 100%;
 	}
+
 	.form_block p span, .form_block .contacts_title {
 		width: 35%;
 	}
+
 	.contacts_block {
 		margin-top: 7px;
 	}
+
 	.form_block .field_person {
 		width: 60%;	
 	}
+
 	.field_trip .label_checkbox:after, .agree_head .label_checkbox:after {
 		border: 2px solid #6ebbd9;
 	}
+
 	.form_block .date_title {
 		margin-bottom: 8px;
 	}
+
 	.form_block .date_content {
 		margin-left: 0;
 	}
+
 	.date_list {
 		font-size: 16px;
 	}
+
 	.form_block .field_date {
 		display: flex;
 		flex-direction: column;
 		align-items: center;
 	}
+	
 	.form_block .driverauto_title  {
 		display: block;
 		margin-bottom: 8px;
@@ -669,43 +695,53 @@ footer {
 		width: 100%;
 		text-align: center;
 	}
+	
 	.form_block .field_number {
 		display: block;
 		margin: 0 auto 10px;
 	}
+	
 	.form_block .experience_field .experience_block {
 		width: 70%;
 	}
+	
 	.form_block .experience_field .experience_block {
 		display: flex;
 		flex-direction: row;
 		justify-content: center;
 	}
+	
 	.form_block .experience_field,
 	.form_block .experience_field .experience_block .experience_yes,
 	.form_block .experience_field .experience_block .experience_years,
 	.form_block .experience_field .experience_block .experience_no {
 		display: flex;
 	}
+	
 	.form_block .experience_field .experience_block .experience_yes {
 		-ms-grid-row-align: center;
 		align-self: center;
 	}
+	
 	.form_block .experience_field .experience_block .experience_years {
 		align-items: center;
 	}
+	
 	.form_block .experience_field .experience_no {
 		-ms-grid-row-align: center;
 		align-self: center;
 		width: 15%;
 	}
+	
 	.trip_container {
 		justify-content: space-between;
 		font-size: 12px;
 	}
+	
 	.trip_block .field_trip {
 		margin-top: 12px;
 	}
+	
 	.form_block .field_big {
 		max-width: 434px;
 		width: 100%;
