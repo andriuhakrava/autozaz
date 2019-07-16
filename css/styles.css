@@ -719,7 +719,6 @@ footer {
 	}
 	
 	.form_block .experience_field .experience_block .experience_yes {
-		-ms-grid-row-align: center;
 		align-self: center;
 	}
 	
@@ -728,7 +727,6 @@ footer {
 	}
 	
 	.form_block .experience_field .experience_no {
-		-ms-grid-row-align: center;
 		align-self: center;
 		width: 15%;
 	}
